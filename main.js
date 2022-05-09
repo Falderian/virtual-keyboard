@@ -14,7 +14,6 @@ loadJSON('./src/keyboard.JSON').then(data => {
 
 let dataKeys = require ('./src/keyboard.json');
 
-
 createInputArea();
 keyboardDiv();
 addCssForTableBody();
