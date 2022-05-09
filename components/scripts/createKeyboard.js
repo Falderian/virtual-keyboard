@@ -50,5 +50,4 @@ const addEmpyTD = () => {
         }
         (document.getElementById('60').remove());
 }
-
 export { keyboardDiv, addEmpyTD, divElement, keyboardFrame, keyboardBody, tableRow, tableData };
