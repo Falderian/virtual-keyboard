@@ -1,14 +1,13 @@
 import { dataKeys } from "../../main";
 
-let currentLang = 'en';
-let shiftIsPressed;  
+let currentLang;
+let shiftIsPressed;
 
 const changeTheLang = () => {      
     document.addEventListener('keydown', function(event) {
         if(event.key === 'Shift') shiftIsPressed = 1;
-        console.log(event.key);
         if(shiftIsPressed && event.key === 'Alt') {
-            console.log('CHANGE');
+            currentLang = localStorage.getItem('currentLang');
             currentLang === 'en' ? changeLangToRu() : changeLangToEn();
         }
     });
@@ -23,7 +22,7 @@ const changeLangToRu = () => {
         allPar[i].innerHTML = dataKeys.keyboard[i].ru;
     }
     currentLang = 'ru';
-    console.log(currentLang);
+    localStorage.setItem('currentLang', 'ru');
 }
 
 const changeLangToEn = () => {
@@ -32,7 +31,12 @@ const changeLangToEn = () => {
         allPar[i].innerHTML = dataKeys.keyboard[i].en;
     }
     currentLang = 'en';
-    console.log(currentLang);
+    localStorage.setItem('currentLang', 'en');
 }
 
-export { changeTheLang };
+const whichLangIsCurr = () => {
+    let lang = localStorage.getItem('currentLang');
+    lang === 'ru' ? changeLangToRu(): changeLangToEn;
+}
+
+export { changeTheLang, whichLangIsCurr };

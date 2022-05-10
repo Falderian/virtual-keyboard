@@ -1,5 +1,5 @@
 import { dataKeys } from "../../main";
-
+import { currentLang } from "./changeLang";
 const addCssForTableBody = () => {
     document.querySelector('table').classList.add('table-styles');
 }

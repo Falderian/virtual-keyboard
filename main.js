@@ -2,7 +2,7 @@ import { keyboardDiv, addEmpyTD } from "./components/scripts/createKeyboard";
 import { addCssForTableBody, addIdForKeys, addKeysNames, addArrowsKeys} from "./components/scripts/addCssForTable";
 import { findKey } from "./components/scripts/keyboardEvents";
 import { createInputArea } from "./components/scripts/createInputArea";
-import { changeTheLang } from "./components/scripts/changeLang";
+import { changeTheLang, whichLangIsCurr } from "./components/scripts/changeLang";
 import { createLegend } from "./components/scripts/createLegendForChangeLang";
 /*async function loadJSON (url) {
     const res = await fetch(url);
@@ -25,6 +25,7 @@ findKey();
 changeTheLang();
 addArrowsKeys();
 createLegend();
+whichLangIsCurr();
 
 
 export { dataKeys };
