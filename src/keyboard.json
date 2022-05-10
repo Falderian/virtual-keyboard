@@ -95,8 +95,8 @@
         "id": 13,
         "en": "Backspace",
         "ru": "Backspace",
-        "shiftEn": "BackspaceShiftEn",
-        "shiftRu": "BackspaceShiftRu"
+        "shiftEn": "Backspace",
+        "shiftRu": "Backspace"
       },
       
 
@@ -107,8 +107,8 @@
         "id": 14,
         "en": "Tab",
         "ru": "Tab",
-        "shiftEn": "TabShiftEn",
-        "shiftRu": "TabShiftRu"
+        "shiftEn": "Tab",
+        "shiftRu": "Tab"
       },
       {
         "id": 15,
@@ -216,8 +216,8 @@
         "id": 29,
         "en": "CapsLock",
         "ru": "CapsLock",
-        "shiftEn": "ShiftCapsLockEn",
-        "shiftRu": "ShiftCapsLockRu"
+        "shiftEn": "CapsLock",
+        "shiftRu": "CapsLock"
       },
       {
         "id": 30,
@@ -300,8 +300,8 @@
         "id": 41,
         "en": "Enter",
         "ru": "Enter",
-        "shiftEn": "ShiftEnterEn",
-        "shiftRu": "ShiftEnterRu"
+        "shiftEn": "Enter",
+        "shiftRu": "Enter"
       },
 
 
@@ -310,15 +310,15 @@
         "id": 42,
         "en": "Shift",
         "ru": "Shift",
-        "shiftEn": "ShiftShiftEn",
-        "shiftRu": "ShiftShiftRu"
+        "shiftEn": "Shift",
+        "shiftRu": "Shift"
       },
       {
         "id": 43,
         "en": "\\",
         "ru": "\\",
-        "shiftEn": "ShiftBackslashEn",
-        "shiftRu": "ShiftBackslashRu"
+        "shiftEn": "\\",
+        "shiftRu": "\\"
       },
       {
         "id": 44,

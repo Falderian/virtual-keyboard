@@ -29,7 +29,7 @@ td {
     outline-color: rgb(45, 130, 133);
     outline-width: 2px;
 
-    transition: 0.5s;
+    transition: 0.3s;
     
 }
 
@@ -37,6 +37,12 @@ td:hover {
     background-color: rgb(107, 49, 49);
     transform: scale(1.1);
     cursor: pointer;
+    
+}
+
+td:active {
+    box-shadow: 0px 0px 0px 2px #4d4d4d,0px 0px 5px 10px #4b2e25;
+    transform: scale(1.2);
 }
 
 td p {
