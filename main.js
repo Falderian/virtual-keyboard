@@ -1,5 +1,5 @@
 import { keyboardDiv, addEmpyTD } from "./components/scripts/createKeyboard";
-import { addCssForTableBody, addIdForKeys, addKeysNames} from "./components/scripts/addCssForTable";
+import { addCssForTableBody, addIdForKeys, addKeysNames, addArrowsKeys} from "./components/scripts/addCssForTable";
 import { findKey } from "./components/scripts/keyboardEvents";
 import { createInputArea } from "./components/scripts/createInputArea";
 import { changeTheLang } from "./components/scripts/changeLang";
@@ -23,6 +23,7 @@ addKeysNames();
 addEmpyTD();
 findKey();
 changeTheLang();
+addArrowsKeys();
 createLegend();
 
 

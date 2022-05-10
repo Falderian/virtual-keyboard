@@ -40,6 +40,34 @@ td p {
     background-color: chocolate;
 }
 
+.arrow-up {
+    background-image: url('./components/svg/arrow-up.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-left {
+    background-image: url('./components/svg/arrow-left.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-down {
+    background-image: url('./components/svg/arrow-down.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-right {
+    background-image: url('./components/svg/arrow-right.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .div-text {
     padding-top: 20px;
+}
+
+.invisible {
+    display: none;
 }

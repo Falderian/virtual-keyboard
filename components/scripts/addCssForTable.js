@@ -23,4 +23,23 @@ const addKeysNames = () => {
     }
 }
 
-export { addCssForTableBody, addIdForKeys, addKeysNames };
+const addArrowsKeys = () => {
+    let arrowUp = document.getElementById(55);
+    let arrowLeft = document.getElementById(62);
+    let arrowDown = document.getElementById(63);
+    let arrowRight = document.getElementById(64);
+
+    arrowUp.classList.add('arrow-up');
+    arrowUp.childNodes[0].classList.add('invisible');
+    
+    arrowLeft.classList.add('arrow-left');
+    arrowLeft.childNodes[0].classList.add('invisible');
+
+    arrowDown.classList.add('arrow-down');
+    arrowDown.childNodes[0].classList.add('invisible');
+
+    arrowRight.classList.add('arrow-right');
+    arrowRight.childNodes[0].classList.add('invisible');
+}
+
+export { addCssForTableBody, addIdForKeys, addKeysNames, addArrowsKeys };
