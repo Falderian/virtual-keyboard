@@ -49,5 +49,16 @@ const addEmpyTD = () => {
                 rows[i].appendChild(empyTD);
         }
         document.getElementById(65).remove();
+        rows[4].childNodes[6].classList.add('arrow-left');
+        rows[4].childNodes[6].childNodes[0].classList.add('invisible');
+
+        rows[4].childNodes[7].classList.add('arrow-down');        
+        rows[4].childNodes[7].childNodes[0].classList.add('invisible');
+
+        rows[4].childNodes[8].classList.add('arrow-right');        
+        rows[4].childNodes[8].childNodes[0].classList.add('invisible');
+
+        rows[3].childNodes[13].classList.add('arrow-up');        
+        rows[3].childNodes[13].childNodes[0].classList.add('invisible');
 }
 export { keyboardDiv, addEmpyTD, divElement, keyboardFrame, keyboardBody, tableRow, tableData };
