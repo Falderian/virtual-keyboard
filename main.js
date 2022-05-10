@@ -4,6 +4,7 @@ import { findKey } from "./components/scripts/keyboardEvents";
 import { createInputArea } from "./components/scripts/createInputArea";
 import { changeTheLang, whichLangIsCurr } from "./components/scripts/changeLang";
 import { createLegend } from "./components/scripts/createLegendForChangeLang";
+import { addListenerForClick } from "./components/scripts/inputForVirtKey"
 /*async function loadJSON (url) {
     const res = await fetch(url);
     return await res.json();
@@ -26,6 +27,7 @@ changeTheLang();
 addArrowsKeys();
 createLegend();
 whichLangIsCurr();
+addListenerForClick();
 
 
 export { dataKeys };

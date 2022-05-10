@@ -42,4 +42,5 @@ const addArrowsKeys = () => {
     arrowRight.childNodes[0].classList.add('invisible');
 }
 
+
 export { addCssForTableBody, addIdForKeys, addKeysNames, addArrowsKeys };

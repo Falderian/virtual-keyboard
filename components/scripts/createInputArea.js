@@ -10,4 +10,4 @@ const createInputArea = () =>  {
     textarea.classList.add('text-area');
 }
 
-export {createInputArea};
+export {createInputArea, textarea};
