@@ -4,7 +4,8 @@ import { findKey } from "./components/scripts/keyboardEvents";
 import { createInputArea } from "./components/scripts/createInputArea";
 import { changeTheLang, whichLangIsCurr } from "./components/scripts/changeLang";
 import { createLegend } from "./components/scripts/createLegendForChangeLang";
-import { addListenerForClick } from "./components/scripts/inputForVirtKey"
+import { addListenerForClick } from "./components/scripts/inputForVirtKey";
+import { changeToUpperCase } from "./components/scripts/changeToUpperCase";
 /*async function loadJSON (url) {
     const res = await fetch(url);
     return await res.json();
@@ -28,6 +29,7 @@ addArrowsKeys();
 createLegend();
 whichLangIsCurr();
 addListenerForClick();
+//changeToUpperCase();
 
 
 export { dataKeys };
