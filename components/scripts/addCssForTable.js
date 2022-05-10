@@ -8,9 +8,12 @@ const addIdForKeys = () => {
     const allTD = document.querySelectorAll('td');
     for(let i = 0; i < allTD.length; i++) {
         allTD[i].setAttribute('id', `${i}`);
-    }
+    }          
+    for(let i = 61; i < 64; i++) {
+        let datas = document.getElementById(i);
+        datas.setAttribute('id', `${i}`-1);
 }
-
+}
 const addKeysNames = () => {
     const allTD = document.querySelectorAll('td');
     allTD.forEach(item => {

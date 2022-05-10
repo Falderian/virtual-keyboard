@@ -18,7 +18,7 @@ const createSpaceBar = () => {
         for(let i = 0; i < 5; i++) {
                 let rows = document.querySelectorAll('tr');
                 rows[4].childNodes[i+6].remove();
-        }      
+        }
 }
 
 const keyboardDiv = () => {
@@ -39,7 +39,7 @@ const keyboardDiv = () => {
         changeSizeTD(29);
         changeSizeTD(41);
         changeSizeTD(42);
-        createSpaceBar();
+        createSpaceBar();        
 }
 
 const addEmpyTD = () => {
