@@ -28,6 +28,11 @@ td {
     transition: 0.5s;
 }
 
+td:hover {
+    background-color: rgb(196, 180, 180);
+    transform: scale(1.1);
+}
+
 td p {
     display: flex;
 
@@ -38,6 +43,7 @@ td p {
 
 .active-key {
     background-color: chocolate;
+    transform: scale(1.1);
 }
 
 .arrow-up {
