@@ -479,6 +479,14 @@
         "shiftEn": "empty",
         "shiftRu": "empty"
       }
+      ,
+      {
+        "id": 65,
+        "en": "",
+        "ru": "LESS",
+        "shiftEn": "LESS",
+        "shiftRu": "LESS"
+      }
     ]
   }
   

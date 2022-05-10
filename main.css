@@ -16,6 +16,7 @@ body {
 .table-styles {
     border: 1px solid #333;
     border-spacing: 5px 10px;
+    background-color: royalblue;
 }
 
 td {
@@ -23,9 +24,19 @@ td {
     height: 40px;
     
     background-color: grey;
-    border-radius: 5px;
+    border-radius: 15px;
+    outline-style: inset;
+    outline-color: rgb(45, 130, 133);
+    outline-width: 2px;
 
     transition: 0.5s;
+    
+}
+
+td:hover {
+    background-color: rgb(107, 49, 49);
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 td p {
@@ -34,8 +45,42 @@ td p {
     align-content: center;
     justify-content: center;
     
+    color: antiquewhite;
 }
 
 .active-key {
     background-color: chocolate;
+    transform: scale(1.1);
+}
+
+.arrow-up {
+    background-image: url('./components/svg/arrow-up.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-left {
+    background-image: url('./components/svg/arrow-left.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-down {
+    background-image: url('./components/svg/arrow-down.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-right {
+    background-image: url('./components/svg/arrow-right.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div-text {
+    padding-top: 20px;
+}
+
+.invisible {
+    display: none;
 }

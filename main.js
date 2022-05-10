@@ -1,8 +1,11 @@
 import { keyboardDiv, addEmpyTD } from "./components/scripts/createKeyboard";
-import { addCssForTableBody, addIdForKeys, addKeysNames} from "./components/scripts/addCssForTable";
+import { addCssForTableBody, addIdForKeys, addKeysNames, addArrowsKeys} from "./components/scripts/addCssForTable";
 import { findKey } from "./components/scripts/keyboardEvents";
 import { createInputArea } from "./components/scripts/createInputArea";
-import { changeTheLang } from "./components/scripts/changeLang";
+import { changeTheLang, whichLangIsCurr } from "./components/scripts/changeLang";
+import { createLegend } from "./components/scripts/createLegendForChangeLang";
+import { addListenerForClick } from "./components/scripts/inputForVirtKey";
+import { changeToUpperCase } from "./components/scripts/changeToUpperCase";
 /*async function loadJSON (url) {
     const res = await fetch(url);
     return await res.json();
@@ -22,6 +25,11 @@ addKeysNames();
 addEmpyTD();
 findKey();
 changeTheLang();
+addArrowsKeys();
+createLegend();
+whichLangIsCurr();
+addListenerForClick();
+//changeToUpperCase();
 
 
 export { dataKeys };
