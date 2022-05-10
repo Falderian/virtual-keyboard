@@ -39,3 +39,7 @@ td p {
 .active-key {
     background-color: chocolate;
 }
+
+.div-text {
+    padding-top: 20px;
+}

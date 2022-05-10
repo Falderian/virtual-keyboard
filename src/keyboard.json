@@ -439,13 +439,6 @@
       },
       {
         "id": 60,
-        "en": "Space",
-        "ru": "Space",
-        "shiftEn": "Space",
-        "shiftRu": "Space"
-      },
-      {
-        "id": 60,
         "en": "Alt",
         "ru": "Alt",
         "shiftEn": "Alt",
@@ -478,6 +471,14 @@
         "ru": "ArrowRight",
         "shiftEn": "ArrowRight",
         "shiftRu": "ArrowRight"
+      }
+      ,
+      {
+        "id": 65,
+        "en": "",
+        "ru": "LESS",
+        "shiftEn": "LESS",
+        "shiftRu": "LESS"
       }
     ]
   }
